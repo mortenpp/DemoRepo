@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="DefaultConnection-Web.config Connection String" description="DefaultConnection Connection String used in web.config by the application to access the database." defaultValue="Data Source=(LocalDb)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\aspnet-FirstWeb-20170404045348.mdf;Initial Catalog=aspnet-FirstWeb-20170404045348;Integrated Security=True" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="c:\\users\\admin\\documents\\visual\ studio\ 2015\\Projects\\FirstWeb\\FirstWeb\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+  </parameter>
+  <parameter name="AW-Web.config Connection String" description="AW Connection String used in web.config by the application to access the database." defaultValue="data source=db9srv.database.windows.net;initial catalog=db9;persist security info=True;user id=chinzilla;password=Pa$$w0rdPa$$w0rd;MultipleActiveResultSets=True;App=EntityFramework" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="c:\\users\\admin\\documents\\visual\ studio\ 2015\\Projects\\FirstWeb\\FirstWeb\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='AW']/@connectionString" />
+  </parameter>
+</parameters>
